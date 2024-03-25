@@ -1,7 +1,10 @@
 {
   "name": "@jurassicjs/create-monodeno",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "exports": "./mod.ts",
-  "imports": {}
+  "imports": {
+    "@std/fs": "jsr:@std/fs@^0.220.1",
+    "@std/path": "jsr:@std/path@^0.220.1"
+  }
 }
