@@ -1,5 +1,9 @@
 import { clone } from "./clone.ts";
 
+/**
+ * @module create-monodeno creates a monodeno project
+ * 
+ */
 console.log("Creating a monodeno project, Let's go Deno 🦖!");
 const name = prompt("project name: ", 'monodeno');
 const path = prompt("path", '.');
