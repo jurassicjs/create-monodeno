@@ -1,5 +1,7 @@
-import { join } from "@std/path";
-import { exists } from "@std/fs";
+import * as path from "https://deno.land/std@0.220.1/path/mod.ts"
+import * as fs from "https://deno.land/std@0.220.1/fs/mod.ts";
+const { exists } = fs;
+const { join } = path;
 
 const { run } = Deno;
 
